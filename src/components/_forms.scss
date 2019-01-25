@@ -1,0 +1,20 @@
+input,
+select,
+textarea {
+  border-radius: 4px;
+  padding: 8px;
+}
+
+input,
+select,
+textarea {
+  border-color: $grayColor;
+  border-style: solid;
+  border-width: 1px;
+  color: $textColor;
+}
+
+select,
+input[type="submit"] {
+  cursor: pointer;
+}

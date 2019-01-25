@@ -1,0 +1,32 @@
+// Colors
+$blackColor: #1e272e;
+$whiteColor: #ffffff;
+$grayColor: #bdc3c7;
+$lightGrayColor: #ecf0f1;
+$darkGrayColor: #7f8c8d;
+
+$primaryColor: #3498db;
+$secondaryColor: #e67e22;
+$accentColor: #f39c12;
+$textColor: $blackColor;
+$backgroundColor: $whiteColor;
+
+// Typography
+$primaryFontName: 'Roboto';
+$primaryFont: $primaryFontName, Arial, Helvetica, sans-serif;
+
+// Font Sizes
+$smallFontSize: 12px;
+$baseFontSize: 16px;
+$mediumFontSize: 18px;
+$largeFontSize: 22px;
+
+// Layout
+$containerWidth: 1200px;
+
+// Breakpoints
+$breakpoints: (
+  'small': 320px,
+  'medium': 768px,
+  'large': 1024px
+)

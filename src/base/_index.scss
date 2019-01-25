@@ -1,0 +1,33 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  background-color: $backgroundColor;
+  color: $textColor;
+  font-size: $baseFontSize;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: .1s color;
+
+  &:hover {
+    color: $accentColor;
+  }
+}
+
+img,
+iframe,
+video {
+  max-width: 100%;
+}

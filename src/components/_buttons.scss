@@ -1,0 +1,46 @@
+button {
+  padding: 8px;
+  border-radius: 4px;
+  background-color: transparent;
+  border-color: $textColor;
+  border-style: solid;
+  border-width: 1px;
+  transition: .1s transform;
+  cursor: pointer;
+
+  &:active {
+    transform: scale(.9)
+  }
+}
+
+.button {
+  display: inline-block;
+  background-color: $primaryColor;
+  border-style: none;
+  color: $whiteColor;
+
+  &.secondary {
+    background-color: $secondaryColor;
+  }
+
+  &.accent {
+    background-color: $accentColor;
+  }
+
+  &.ghost {
+    background-color: transparent;
+    border-color: $primaryColor;
+    border-style: solid;
+    color: $primaryColor;
+
+    &.secondary {
+      border-color: $secondaryColor;
+      color: $secondaryColor;
+    }
+
+    &.accent {
+      border-color: $accentColor;
+      color: $accentColor;
+    }
+  }
+}
